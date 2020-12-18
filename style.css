@@ -1,0 +1,140 @@
+body {
+    font: 16px/28px apple chanchery, cursive;
+    background-color: white;
+    color: white;
+    background-image: url(img/spider.jpg);
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: aquamarine;
+    border-bottom: 3px solid pink;
+    z-index: 9999;
+}
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: rgb(167, 167, 167);
+}
+
+.instagram {
+    height: 200px;
+    width: 200px;
+    background-image: url(img/ig.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 65px;
+    right: 270px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: aquamarine;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: pink;
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(img/BAZNAS-artikel.jpg);
+    background-size: cover;
+    background-position: 0 -110px;
+    border-bottom: 5px solid pink;
+    border-top: 5px solid aquamarine;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    color: pink;
+    text-decoration: none;
+}
+
+.main p {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: pink;
+}
+
+.sidebar img {
+    float: left;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
